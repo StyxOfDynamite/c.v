@@ -24,7 +24,7 @@ const pdfFileName = `${getSlug(templateData.name)}.${getSlug(
 )}.pdf`;
 const html = template({
   ...templateData,
-  baseUrl: `https://lukestorer.dev`,
+  baseUrl: `https://cv.lukestorer.dev`,
   pdfFileName,
   updated: dayjs().format("MMMM D, YYYY"),
 });
